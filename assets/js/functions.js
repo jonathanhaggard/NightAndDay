@@ -11,7 +11,7 @@ function httpGetAsync(theUrl, callback)
 }
 
 var getTheColors = function() {
-    var path = 'https://dkdfrhew.p19.weaved.com/'
+    var path = 'https://night-and-day-server.herokuapp.com/'
     httpGetAsync(path, function(res){
       var colors = "rgb(" + res + ")";
       console.log(colors);

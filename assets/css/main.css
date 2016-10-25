@@ -184,12 +184,12 @@ html, body {
   top: 0;
   left: 0;
   right: 0;
-  font-size: 2vmin;
-  font-weight: 400;
-  display: flex;
-  justify-content: space-between;
-  padding: 8vmin 8vmin;
-  color: white; }
+  font-size: 16vmin;
+  font-weight: 700;
+  line-height: 17vmin;
+  padding: 4vmin 4vmin;
+  color: white;
+  text-align: left; }
 
 #sun {
   height: 25vmin;
